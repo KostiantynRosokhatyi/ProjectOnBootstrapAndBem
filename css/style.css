@@ -237,6 +237,7 @@ progress::-webkit-progress-value{
     padding-top: 175px;
     padding-bottom: 35px;
     text-align: center;
+
 }
 .authors__name{
     font-family: 'Montserrat Medium';
@@ -244,14 +245,17 @@ progress::-webkit-progress-value{
     color: #ffffff;
     padding-bottom: 110px;
     text-align: center;
+    margin: 0;
 }
 .authors__bg{
     background: #10c9c3;
+    padding: 0px;
 }
 q{
     font-family: 'Montserrat Medium';
     font-size: 24px;
     color: #ffffff;
+    padding: 0px;
 }
 .authors__bt{
     background: #b0e8e6;
@@ -261,7 +265,7 @@ q{
     border: none;
     padding: 0;
     position: relative;
-    margin: auto;
+    margin: 0;
     display: inline-block;
 }
 .authors__bt_selected{
@@ -276,7 +280,4 @@ q{
 }
 .slideshow__container{
     position: relative;
-    padding: 0px;
-    margin: 0px;
-
 }
