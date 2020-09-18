@@ -53,3 +53,15 @@ function showSlides(n) {
     slides[slideIndex-1].style.display = "block";
     dots[slideIndex-1].className += " authors__bt_selected";
 }
+/*Menu*/
+jQuery(document).ready(function($){
+    /* Меню */
+    $(`ul.menu a[href^="#"]`).click(function () {
+        var target = $(this).attr('href');
+        $('html, body').animate({
+            scrollTop: $(target).offset().top
+        }, 500);
+    })
+});
+
+

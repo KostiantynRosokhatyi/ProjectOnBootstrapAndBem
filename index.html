@@ -7,13 +7,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
     <link rel="stylesheet" href="css\style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
           integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <title>Web design</title>
 </head>
 <body>
     <header class="menu-bar menu-bar-background">
-        <div class="container">
+        <div class="container ">
             <div class="row ">
                 <div class="col-xl-1">
                     <img src="img/logo.png" alt="Logo" class="logo">
@@ -21,20 +22,20 @@
                 <div class="col-xl-7 ml-auto align-self-center">
                     <nav>
                         <ul class="menu d-flex justify-content-end">
-                            <li class="menu__item menu__item_a-active"><a href="#">HOME</a></li>
-                            <li class="menu__item"><a href="#">ABOUT</a></li>
-                            <li class="menu__item"><a href="#">WORK</a></li>
-                            <li class="menu__item"><a href="#">PROCESS</a></li>
-                            <li class="menu__item"><a href="#">SERVICES</a></li>
-                            <li class="menu__item"><a href="#">TESTIMONIALS</a></li>
-                            <li class="menu__item"><a href="#">CONTACT</a></li>
+                            <li class="menu__item menu__item_a-active"><a href="/">HOME</a></li>
+                            <li class="menu__item"><a href="#ABOUT">ABOUT</a></li>
+                            <li class="menu__item"><a href="#WORK">WORK</a></li>
+                            <li class="menu__item"><a href="#PROCESS">PROCESS</a></li>
+                            <li class="menu__item"><a href="#SERVICE">SERVICES</a></li>
+                            <li class="menu__item"><a href="#TESTIMONIALS">TESTIMONIALS</a></li>
+                            <li class="menu__item"><a href="#CONTACT">CONTACT</a></li>
                         </ul> 
                     </nav>
                 </div>
             </div>
         </div>
     </header>
-    <header class="header">
+    <header class="header menu-bar-background">
         <div class="container">
             <div class="row justify-content-end">
                 <div class="col-xl-6">
@@ -47,7 +48,7 @@
             </div>
         </div>
     </header>
-    <section class="about">
+    <section class="about" id="ABOUT">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-6">
@@ -58,18 +59,25 @@
                     <img class="about__img mx-auto d-block" src="img/signature.png" alt="Signature">
                 </div>
             </div>
-            <div class="row">
-                <div class="col-xl-6 about__progress_section">
-                    <h3 class="about__title about__progress_title">Professional Skills</h3>
-                    <h4 class="about__text_progress">UI/UX DESIGN    75%</h4>
-                    <progress class="about__progress"  max="100" value="75"></progress>
-                    <h4 class="about__text_progress">WEB DEVELOPMENT    90%</h4>
-                    <progress class="about__progress"  max="100" value="90"></progress>
-                    <h4 class="about__text_progress">MARKETING    65%</h4>
-                    <progress class="about__progress" max="100" value="65"></progress>
+        </div>
+        <div class="progress_section_background">
+            <div class="container progress_section_background">
+                <div class="row">
+                    <div class="col-xl-6 about__progress_section">
+                        <h3 class="about__title about__progress_title">Professional Skills</h3>
+                        <h4 class="about__text_progress">UI/UX DESIGN    75%</h4>
+                        <progress class="about__progress"  max="100" value="75"></progress>
+                        <h4 class="about__text_progress">WEB DEVELOPMENT    90%</h4>
+                        <progress class="about__progress"  max="100" value="90"></progress>
+                        <h4 class="about__text_progress">MARKETING    65%</h4>
+                        <progress class="about__progress" max="100" value="65"></progress>
+                    </div>
+                    <div class="col-xl-6 about__section_empty"></div>
                 </div>
-                <div class="col-xl-6 about__section_empty"></div>
             </div>
+        </div>
+        <div class="statistic_background">
+            <div class="container">
             <div class="row about__statistic justify-content-around">
                 <div class="col-xl-3">
                     <img class="img_statistic" src="img/pe-7s-portfolio.png" alt="portfolio">
@@ -93,9 +101,10 @@
                 </div>
             </div>
         </div>
+        </div>
     </section>
     <section>
-        <div class="container">
+        <div class="container-fluid">
             <div class="row ">
                 <div class="col-xl-3 about__block about__block_darkgray"></div>
                 <div class="col-xl-3 about__block about__block_gray"></div>
@@ -125,7 +134,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-xl-12 d-flex  justify-content-center">
+                <div class="col-xl-12 d-flex  justify-content-center video-block_padding">
                     <div class="process__square d-flex align-middle">
                         <div class="process__circle img-middle">
                             <img class="process__arrow_img img-middle" src="img/arrow.png" alt="arrow">
@@ -135,7 +144,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section class="cards_background">
         <div class="container">
             <div class="cards_padding_top_bottom">
                 <div class="row justify-content-center">
@@ -193,7 +202,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section class="authors__background">
         <div class="container">
                 <div class="row">
                         <div class="col-xl-12  text-center">
@@ -238,13 +247,14 @@
     </section>
     <section class="container">
             <div class="row justify-content-between section-additional__padding">
-                <div class="col-xl-2"><img src="img/1.png" alt="handmade" class="section_additional__img"></div>
-                <div class="col-xl-2"><img src="img/2.png" alt="mountain" class="section_additional__img"></div>
-                <div class="col-xl-2"><img src="img/3.png" alt="collection" class="section_additional__img"></div>
-                <div class="col-xl-2"><img src="img/4.png" alt="vintage" class="section_additional__img"></div>
+                <div class="col-xl-2"><img src="img/1.png" alt="handmade" class="section_additional__img img-fluid"></div>
+                <div class="col-xl-2"><img src="img/2.png" alt="mountain" class="section_additional__img img-fluid"></div>
+                <div class="col-xl-2"><img src="img/3.png" alt="collection" class="section_additional__img img-fluid"></div>
+                <div class="col-xl-2"><img src="img/4.png" alt="vintage" class="section_additional__img img-fluid"></div>
             </div>
     </section>
-    <section>
+
+    <section class="request-form__background">
         <div class="container  section-form-request">
             <div class="row justify-content-center">
                 <div class="col-xl-6">
@@ -270,15 +280,14 @@
                     <button class="request-form__button">SEND MESSAGE</button>
                 </div>
             </div>
-
         </div>
     </section>
     <footer>
         <div class="container footer">
             <div class="row">
-                <div class="col-xl-3">
-                    <span class="footer__span-text">Piroll Design, Inc.</span>
-                    <p class="pd"> &copy; 2017 Piroll. All rights reserved. <br>
+                <div class="col-xl-3 ">
+                    <span class="footer__span-text footer__text_padding">Piroll Design, Inc.</span>
+                    <p class="pd footer__text_padding"> &copy; 2017 Piroll. All rights reserved. <br>
                         Design by Kostiantyn</p>
                 </div>
                 <div class="col-xl-3">
@@ -315,5 +324,21 @@
             integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
             integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+
+
 </body>
 </html>
