@@ -2,22 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
     <link rel="stylesheet" href="css\style.css">
+    <script src="https://kit.fontawesome.com/04144f6060.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
     <title>Web design</title>
 </head>
 <body>
-    <header class="menu-bar menu-bar-background">
+<div id="toTop"><i class="fas fa-chevron-up"></i></div>
+    <header class="menu-bar menu-bar-background ">
         <div class="container ">
             <div class="row ">
-                <div class="col-xl-1">
-                    <img src="img/logo.png" alt="Logo" class="logo">
+                <div class="col-xl-1 logo-bar">
+                    <img src="img/logo.png" alt="Logo" class="logo img-fluid">
+                    <button id="testId" class="menu-icon"><i class="fas fa-bars"></i></button>
                 </div>
                 <div class="col-xl-7 ml-auto align-self-center">
                     <nav>
@@ -35,10 +40,10 @@
             </div>
         </div>
     </header>
-    <header class="header menu-bar-background">
-        <div class="container">
-            <div class="row justify-content-end">
-                <div class="col-xl-6">
+    <header class="header menu-bar-background ">
+        <div class="container ">
+            <div class="row justify-content-end justify-content-md-center">
+                <div class="col-xl-6 col-md-11">
                     <h1 class="header__title">We Design and Develop</h1>
                     <p class="header__text">We are a new design studio based in USA. We have over
                         20 years of combined experience, and know a thing or two
@@ -63,7 +68,7 @@
         <div class="progress_section_background">
             <div class="container progress_section_background">
                 <div class="row">
-                    <div class="col-xl-6 about__progress_section">
+                    <div class="col-xl-6 col-md-12 about__progress_section">
                         <h3 class="about__title about__progress_title">Professional Skills</h3>
                         <h4 class="about__text_progress">UI/UX DESIGN    75%</h4>
                         <progress class="about__progress"  max="100" value="75"></progress>
@@ -79,22 +84,22 @@
         <div class="statistic_background">
             <div class="container">
             <div class="row about__statistic justify-content-around">
-                <div class="col-xl-3">
+                <div class="col-xl-3 col-md-6">
                     <img class="img_statistic" src="img/pe-7s-portfolio.png" alt="portfolio">
                     <p class="about__text_statistic"><span class="about__statistic_span">548</span><br>
                          PROJECTS COMPLETED</p>
                 </div>
-                <div class="col-xl-3">
+                <div class="col-xl-3 col-md-6">
                     <img  class="img_statistic" src="img/pe-7s-clock.png" alt="clock">
                     <p class="about__text_statistic"><span class="about__statistic_span">1465</span> <br/>
                         WORKING HOURS</p>
                 </div>
-                <div class="col-xl-3">
+                <div class="col-xl-3 col-md-6">
                     <img class="img_statistic"  src="img/pe-7s-star.png" alt="star">
                     <p class="about__text_statistic"><span class="about__statistic_span">612</span> <br/>
                         POSITIVE FEEDBACK</p>
                 </div>
-                <div class="col-xl-3">
+                <div class="col-xl-3 col-md-6">
                     <img  class="img_statistic" src="img/pe-7s-like.png" alt="like">
                     <p class="about__text_statistic"><span class="about__statistic_span">735</span> <br>
                         HAPPY CLIENTS</p>
@@ -148,25 +153,25 @@
         <div class="container">
             <div class="cards_padding_top_bottom">
                 <div class="row justify-content-center">
-                    <div class="col-xl-3 ">
+                    <div class="col-xl-3 col-md-6">
                         <img class="img-middle" src="img/pe-7s-diamond.png" alt="diamond">
                         <h4 class="card__title">UI/UX DESIGN</h4>
                         <p class="card__text">Be set fourth land god darkness <br>
                             make it wherein own</p>
                     </div>
-                    <div class="col-xl-3">
+                    <div class="col-xl-3 col-md-6">
                         <img class="img-middle" src="img/pe-7s-arc.png" alt="diamond">
                         <h4 class="card__title">WEB DEVELOPMENT</h4>
                         <p class="card__text">A she'd them bring void moving <br>
                             third she'd kind fill</p>
                     </div>
-                    <div class="col-xl-3">
+                    <div class="col-xl-3 col-md-6">
                         <img class="img-middle" src="img/pe-7s-phone.png" alt="diamond">
                         <h4 class="card__title">APP / MOBILE</h4>
                         <p class="card__text">Dominion man second spirit he, <br>
                             earth they're creeping</p>
                     </div>
-                    <div class="col-xl-3">
+                    <div class="col-xl-3 col-md-6">
                         <img class="img-middle" src="img/pe-7s-joy.png" alt="diamond">
                         <h4 class="card__title">GAME DESIGN</h4>
                         <p class="card__text">Morning his saying moveth it <br>
@@ -174,25 +179,25 @@
                     </div>
                 </div>
                 <div class="row d-flex justify-content-center ">
-                    <div class="col-xl-3 ">
+                    <div class="col-xl-3 col-md-6">
                         <img class="img-middle" src="img/pe-7s-plane.png" alt="diamond">
                         <h4 class="card__title">SEO / MARKETING </h4>
                         <p class="card__text">Give won't after land fill creeping <br>
                             meat you, may</p>
                     </div>
-                    <div class="col-xl-3">
+                    <div class="col-xl-3 col-md-6">
                         <img class="img-middle" src="img/pe-7s-star2.png" alt="diamond">
                         <h4 class="card__title">PHOTOGRAPHY</h4>
                         <p class="card__text">Creepeth one seas cattle grass <br>
                             give moving saw give</p>
                     </div>
-                    <div class="col-xl-3">
+                    <div class="col-xl-3 col-md-6">
                         <img class="img-middle" src="img/pe-7s-magic-wand.png" alt="diamond">
                         <h4 class="card__title">GRAPHIC DESIGN</h4>
                         <p class="card__text">Open, great whales air rule for, <br>
                             fourth life whales</p>
                     </div>
-                    <div class="col-xl-3">
+                    <div class="col-xl-3 col-md-6">
                         <img class="img-middle" src="img/pe-7s-paint-bucket.png" alt="diamond">
                         <h4 class="card__title">ILLUSTRATIONS</h4>
                         <p class="card__text">Whales likeness hath, man kind <br>
@@ -247,10 +252,10 @@
     </section>
     <section class="container">
             <div class="row justify-content-between section-additional__padding">
-                <div class="col-xl-2"><img src="img/1.png" alt="handmade" class="section_additional__img img-fluid"></div>
-                <div class="col-xl-2"><img src="img/2.png" alt="mountain" class="section_additional__img img-fluid"></div>
-                <div class="col-xl-2"><img src="img/3.png" alt="collection" class="section_additional__img img-fluid"></div>
-                <div class="col-xl-2"><img src="img/4.png" alt="vintage" class="section_additional__img img-fluid"></div>
+                <div class="col-xl-2 col-md-3"><img src="img/1.png" alt="handmade" class="section_additional__img img-fluid"></div>
+                <div class="col-xl-2 col-md-3"><img src="img/2.png" alt="mountain" class="section_additional__img img-fluid"></div>
+                <div class="col-xl-2 col-md-3"><img src="img/3.png" alt="collection" class="section_additional__img img-fluid"></div>
+                <div class="col-xl-2 col-md-3"><img src="img/4.png" alt="vintage" class="section_additional__img img-fluid"></div>
             </div>
     </section>
 
@@ -285,29 +290,29 @@
     <footer>
         <div class="container footer">
             <div class="row">
-                <div class="col-xl-3 ">
+                <div class="col-xl-3 col-md-2">
                     <span class="footer__span-text footer__text_padding">Piroll Design, Inc.</span>
                     <p class="pd footer__text_padding"> &copy; 2017 Piroll. All rights reserved. <br>
                         Design by Kostiantyn</p>
                 </div>
-                <div class="col-xl-3">
+                <div class="col-xl-3 col-md-2">
                     <p>hello@pirolltheme.com <br>
                        +44 987 065 908</p>
                 </div>
-                <div class="col-xl-2">
+                <div class="col-xl-2 col-md-2">
                     <p>Projects<br>
                        About<br>
                        Services<br>
                        Carreer
                     </p>
                 </div>
-                <div class="col-xl-2">
+                <div class="col-xl-2 col-md-2">
                     <p>News<br>
                        Events<br>
                        Contacts<br>
                        Legals</p>
                 </div>
-                <div class="col-xl-2">
+                <div class="col-xl-2 col-md-2">
                     <p>Facebook<br>
                        Twitter<br>
                        Instagram<br>
@@ -316,7 +321,8 @@
             </div>
         </div>
     </footer>
-
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+</script>
     <script type="text/javascript" src="js/scripts.js"> </script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
             integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
