@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+          integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
@@ -17,334 +19,354 @@
 </head>
 <body>
 <div id="toTop"><i class="fas fa-chevron-up"></i></div>
-    <header class="menu-bar menu-bar-background ">
+<header class="menu-bar menu-bar-background ">
+    <div class="container ">
+        <div class="row ">
+            <div class="col-xl-1 logo-bar">
+                <img src="img/logo.png" alt="Logo" class="logo img-fluid">
+                <button id="testId" class="menu-icon"><i class="fas fa-bars"></i></button>
+            </div>
+            <div class="col-xl-7 ml-auto align-self-center">
+                <nav>
+                    <ul class="menu d-flex justify-content-end">
+                        <li class="menu__item menu__item_a-active"><a href="/">HOME</a></li>
+                        <li class="menu__item"><a href="#ABOUT">ABOUT</a></li>
+                        <li class="menu__item"><a href="#WORK">WORK</a></li>
+                        <li class="menu__item"><a href="#PROCESS">PROCESS</a></li>
+                        <li class="menu__item"><a href="#SERVICE">SERVICES</a></li>
+                        <li class="menu__item"><a href="#TESTIMONIALS">TESTIMONIALS</a></li>
+                        <li class="menu__item"><a href="#CONTACT">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+<header class="header menu-bar-background ">
+    <div class="container justify-content-sm-center ">
+        <div class="row justify-content-end ">
+            <div class="col-xl-6 col-md-11 col-xs-12  justify-content-sm-center">
+                <h1 class="header__title">We Design and Develop</h1>
+                <p class="header__text">We are a new design studio based in USA. We have over
+                    20 years of combined experience, and know a thing or two
+                    about designing websites and mobile apps.</p>
+                <button class="header__button button">CONTACT US</button>
+            </div>
+        </div>
+    </div>
+</header>
+<section class="about" id="ABOUT">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xl-6">
+                <h2 class="about__title">About Us</h2>
+                <p class="about__text">Divide have don't man wherein air fourth. Own itself make have night won't make.
+                    A you under Seed appear which good give. Own give air without fowl moveth dry first
+                    heaven fruit, dominion she'd won't very all.</p>
+                <img class="about__img mx-auto d-block" src="img/signature.png" alt="Signature">
+            </div>
+        </div>
+    </div>
+    <div class="progress_section_background">
+        <div class="container progress_section_background">
+            <div class="row">
+                <div class="col-xl-6 col-md-12 about__progress_section">
+                    <h3 class="about__title about__progress_title">Professional Skills</h3>
+                    <h4 class="about__text_progress">UI/UX DESIGN 75%</h4>
+                    <progress class="about__progress" max="100" value="75"></progress>
+                    <h4 class="about__text_progress">WEB DEVELOPMENT 90%</h4>
+                    <progress class="about__progress" max="100" value="90"></progress>
+                    <h4 class="about__text_progress">MARKETING 65%</h4>
+                    <progress class="about__progress" max="100" value="65"></progress>
+                </div>
+                <div class="col-xl-6 about__section_empty"></div>
+            </div>
+        </div>
+    </div>
+    <div class="statistic_background">
         <div class="container ">
-            <div class="row ">
-                <div class="col-xl-1 logo-bar">
-                    <img src="img/logo.png" alt="Logo" class="logo img-fluid">
-                    <button id="testId" class="menu-icon"><i class="fas fa-bars"></i></button>
-                </div>
-                <div class="col-xl-7 ml-auto align-self-center">
-                    <nav>
-                        <ul class="menu d-flex justify-content-end">
-                            <li class="menu__item menu__item_a-active"><a href="/">HOME</a></li>
-                            <li class="menu__item"><a href="#ABOUT">ABOUT</a></li>
-                            <li class="menu__item"><a href="#WORK">WORK</a></li>
-                            <li class="menu__item"><a href="#PROCESS">PROCESS</a></li>
-                            <li class="menu__item"><a href="#SERVICE">SERVICES</a></li>
-                            <li class="menu__item"><a href="#TESTIMONIALS">TESTIMONIALS</a></li>
-                            <li class="menu__item"><a href="#CONTACT">CONTACT</a></li>
-                        </ul> 
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </header>
-    <header class="header menu-bar-background ">
-        <div class="container justify-content-sm-center ">
-            <div class="row justify-content-end ">
-                <div class="col-xl-6 col-md-11 col-xs-12  justify-content-sm-center">
-                    <h1 class="header__title">We Design and Develop</h1>
-                    <p class="header__text">We are a new design studio based in USA. We have over
-                        20 years of combined experience, and know a thing or two
-                        about designing websites and mobile apps.</p>
-                    <button class="header__button button">CONTACT US</button>
-                </div>
-            </div>
-        </div>
-    </header>
-    <section class="about" id="ABOUT">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-xl-6">
-                    <h2 class="about__title">About Us</h2>
-                    <p class="about__text">Divide have don't man wherein air fourth. Own itself make have night won't make.
-                        A you under Seed appear which good give. Own give air without fowl moveth dry first
-                        heaven fruit, dominion she'd won't very all.</p>
-                    <img class="about__img mx-auto d-block" src="img/signature.png" alt="Signature">
-                </div>
-            </div>
-        </div>
-        <div class="progress_section_background">
-            <div class="container progress_section_background">
-                <div class="row">
-                    <div class="col-xl-6 col-md-12 about__progress_section">
-                        <h3 class="about__title about__progress_title">Professional Skills</h3>
-                        <h4 class="about__text_progress">UI/UX DESIGN    75%</h4>
-                        <progress class="about__progress"  max="100" value="75"></progress>
-                        <h4 class="about__text_progress">WEB DEVELOPMENT    90%</h4>
-                        <progress class="about__progress"  max="100" value="90"></progress>
-                        <h4 class="about__text_progress">MARKETING    65%</h4>
-                        <progress class="about__progress" max="100" value="65"></progress>
-                    </div>
-                    <div class="col-xl-6 about__section_empty"></div>
-                </div>
-            </div>
-        </div>
-        <div class="statistic_background">
-            <div class="container ">
             <div class="row about__statistic justify-content-around justify-content-md-between">
                 <div class="col-xl-3 col-md-6 col-xs-6">
                     <img class="img_statistic" src="img/pe-7s-portfolio.png" alt="portfolio">
                     <p class="about__text_statistic"><span class="about__statistic_span">548</span><br>
-                         PROJECTS COMPLETED</p>
+                        PROJECTS COMPLETED</p>
                 </div>
                 <div class="col-xl-3 col-md-6 col-xs-6">
-                    <img  class="img_statistic" src="img/pe-7s-clock.png" alt="clock">
+                    <img class="img_statistic" src="img/pe-7s-clock.png" alt="clock">
                     <p class="about__text_statistic"><span class="about__statistic_span">1465</span> <br/>
                         WORKING HOURS</p>
                 </div>
                 <div class="col-xl-3 col-md-6 col-xs-6">
-                    <img class="img_statistic"  src="img/pe-7s-star.png" alt="star">
+                    <img class="img_statistic" src="img/pe-7s-star.png" alt="star">
                     <p class="about__text_statistic"><span class="about__statistic_span">612</span> <br/>
                         POSITIVE FEEDBACK</p>
                 </div>
                 <div class="col-xl-3 col-md-6 col-xs-6">
-                    <img  class="img_statistic" src="img/pe-7s-like.png" alt="like">
+                    <img class="img_statistic" src="img/pe-7s-like.png" alt="like">
                     <p class="about__text_statistic"><span class="about__statistic_span">735</span> <br>
                         HAPPY CLIENTS</p>
                 </div>
             </div>
         </div>
+    </div>
+</section>
+<section>
+    <div class="container-fluid">
+        <div class="row ">
+            <div class="col-xl-3 col-md-6 col-6 about__block about__block_darkgray about__block_display-none"></div>
+            <div class="col-xl-3 col-md-6 col-6 about__block about__block_gray about__block_display-none"></div>
+            <div class="col-xl-3 col-md-6 col-6 about__block about__block_darkgray"></div>
+            <div class="col-xl-3 col-md-6 col-6 about__block about__block_gray"></div>
+            <div class="col-xl-3 col-md-6 col-6 about__block about__block_gray"></div>
+            <div class="col-xl-3 col-md-6 col-6 about__block  about__block_dark img-middle">
+                <img class="d-block img-fluid mx-auto" src="img/pe-7s-look.png" alt="eye">
+            </div>
+            <div class="col-xl-3 col-md-6 col-6 about__block about__block_gray change-bg-mobile-darkgray"></div>
+            <div class="col-xl-3 col-md-6 col-6 about__block about__block_darkgray change-bg-mobile-gray"></div>
         </div>
-    </section>
-    <section>
-        <div class="container-fluid">
-            <div class="row ">
-                <div class="col-xl-3 col-md-6 col-xs-12 about__block about__block_darkgray"></div>
-                <div class="col-xl-3 col-md-6 col-xs-12 about__block about__block_gray"></div>
-                <div class="col-xl-3 col-md-6 col-xs-12 about__block about__block_darkgray"></div>
-                <div class="col-xl-3 col-md-6 col-xs-12 about__block about__block_gray"></div>
-                <div class="col-xl-3 col-md-6 col-xs-12 about__block about__block_gray"></div>
-                <div class="col-xl-3 col-md-6 col-xs-12 about__block  about__block_dark img-middle">
-                    <img class="d-block img-fluid mx-auto" src="img/pe-7s-look.png" alt="eye">
-                </div>
-                <div class="col-xl-3 col-md-6 col-xs-12 about__block about__block_gray"></div>
-                <div class="col-xl-3 col-md-6 col-xs-12 about__block about__block_darkgray"></div>
-            </div>
-            <div class="row">
-                <div class="col-xl-12 about__text_load">
-                    <p>LOAD MORE WORK</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12 process__text_middle">
-                    <h3 class="process__title">Our work Process</h3>
-                    <p class="process_text">Was years it seasons was there form he in in them together over that,<br>
-                        third sixth gathered female creeping bearing behold years</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xl-12 d-flex  justify-content-center video-block_padding">
-                    <div class="process__square d-flex align-middle">
-                        <div class="process__circle img-middle">
-                            <img class="process__arrow_img img-middle" src="img/arrow.png" alt="arrow">
-                        </div>
-                    </div>
-                </div>
+        <div class="row">
+            <div class="col-xl-12 about__text_load">
+                <p>LOAD MORE WORK</p>
             </div>
         </div>
-    </section>
-    <section class="cards_background">
-        <div class="container">
-            <div class="cards_padding_top_bottom">
-                <div class="row justify-content-center">
-                    <div class="col-xl-3 col-md-6 col-xs-6">
-                        <img class="img-middle" src="img/pe-7s-diamond.png" alt="diamond">
-                        <h4 class="card__title">UI/UX DESIGN</h4>
-                        <p class="card__text">Be set fourth land god darkness <br>
-                            make it wherein own</p>
-                    </div>
-                    <div class="col-xl-3 col-md-6 col-xs-6">
-                        <img class="img-middle" src="img/pe-7s-arc.png" alt="diamond">
-                        <h4 class="card__title">WEB DEVELOPMENT</h4>
-                        <p class="card__text">A she'd them bring void moving <br>
-                            third she'd kind fill</p>
-                    </div>
-                    <div class="col-xl-3 col-md-6 col-xs-6">
-                        <img class="img-middle" src="img/pe-7s-phone.png" alt="diamond">
-                        <h4 class="card__title">APP / MOBILE</h4>
-                        <p class="card__text">Dominion man second spirit he, <br>
-                            earth they're creeping</p>
-                    </div>
-                    <div class="col-xl-3 col-md-6 col-xs-6">
-                        <img class="img-middle" src="img/pe-7s-joy.png" alt="diamond">
-                        <h4 class="card__title">GAME DESIGN</h4>
-                        <p class="card__text">Morning his saying moveth it <br>
-                            multiply appear life be</p>
-                    </div>
-                </div>
-                <div class="row d-flex justify-content-center ">
-                    <div class="col-xl-3 col-md-6 col-xs-6">
-                        <img class="img-middle" src="img/pe-7s-plane.png" alt="diamond">
-                        <h4 class="card__title">SEO / MARKETING </h4>
-                        <p class="card__text">Give won't after land fill creeping <br>
-                            meat you, may</p>
-                    </div>
-                    <div class="col-xl-3 col-md-6 col-xs-6">
-                        <img class="img-middle" src="img/pe-7s-star2.png" alt="diamond">
-                        <h4 class="card__title">PHOTOGRAPHY</h4>
-                        <p class="card__text">Creepeth one seas cattle grass <br>
-                            give moving saw give</p>
-                    </div>
-                    <div class="col-xl-3 col-md-6 col-xs-6">
-                        <img class="img-middle" src="img/pe-7s-magic-wand.png" alt="diamond">
-                        <h4 class="card__title">GRAPHIC DESIGN</h4>
-                        <p class="card__text">Open, great whales air rule for, <br>
-                            fourth life whales</p>
-                    </div>
-                    <div class="col-xl-3 col-md-6 col-xs-6">
-                        <img class="img-middle" src="img/pe-7s-paint-bucket.png" alt="diamond">
-                        <h4 class="card__title">ILLUSTRATIONS</h4>
-                        <p class="card__text">Whales likeness hath, man kind <br>
-                            for them air two won't</p>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12 process__text_middle">
+                <h3 class="process__title">Our work Process</h3>
+                <p class="process_text">Was years it seasons was there form he in in them together over that,<br>
+                    third sixth gathered female creeping bearing behold years</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-12 d-flex  justify-content-center video-block_padding">
+                <div class="process__square d-flex align-middle">
+                    <div class="process__circle img-middle">
+                        <img class="process__arrow_img img-middle" src="img/arrow.png" alt="arrow">
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <section class="authors__background">
-        <div class="container">
-                <div class="row">
-                        <div class="col-xl-12  text-center">
-                            <div class="mySlides authors__bg">
-                                <p class="authors__words"><q> Outstanding job and exceeded all expectations. It was a pleasure <br>
-                                        to work with them on a sizable first project and am looking <br>
-                                        forward to start the next one asap.</q></p>
-                                <p class="authors__name">MICHAEL HOPKINS</p>
-                            </div>
-                        </div>
-                    </div>
-            <div class="row">
-                <div class="col-xl-12  text-center">
-                    <div class="mySlides authors__bg">
-                        <p class="authors__words"><q> Outstanding job and exceeded all expectations. It was a pleasure <br>
-                                    to work with them on a sizable first project and am looking <br>
-                                    forward to start the next one asap.</q></p>
-                        <p class="authors__name">Andrew HOPKINS</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-
-                    <div class="col-xl-12  text-center">
-                            <div class="mySlides authors__bg">
-                            <p class="authors__words"><q> Outstanding job and exceeded all expectations. It was a pleasure <br>
-                                        to work with them on a sizable first project and am looking <br>
-                                        forward to start the next one asap.</q></p>
-                            <p class="authors__name">Anzhelika HOPKINS</p>
-                        </div>
-                   </div>
-
-            </div>
-            <div class="col-xl-12 authors__bg">
-                <div style="text-align:center">
-                    <span class="authors__bt "  onclick="currentSlide(1)"></span>
-                    <span class="authors__bt"  onclick="currentSlide(2)"></span>
-                    <span class="authors__bt authors__bt_selected"  onclick="currentSlide(3)"></span>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="container">
-            <div class="row justify-content-between justify-content-md-around section-additional__padding">
-                <div class="col-xl-2 col-md-3"><img src="img/1.png" alt="handmade" class="section_additional__img img-fluid"></div>
-                <div class="col-xl-2 col-md-3"><img src="img/2.png" alt="mountain" class="section_additional__img img-fluid"></div>
-                <div class="col-xl-2 col-md-3"><img src="img/3.png" alt="collection" class="section_additional__img img-fluid"></div>
-                <div class="col-xl-2 col-md-3"><img src="img/4.png" alt="vintage" class="section_additional__img img-fluid"></div>
-            </div>
-    </section>
-
-    <section class="request-form__background">
-        <div class="container  section-form-request">
+    </div>
+</section>
+<section class="cards_background">
+    <div class="container">
+        <div class="cards_padding_top_bottom">
             <div class="row justify-content-center">
-                <div class="col-xl-6">
-                    <h3 class="section-form-request__text_h3">Need a Project?</h3>
-                    <p>Let us know what you're looking for in an agency. We'll take a look and see <br>
-                        if this could be the start of something beautiful.</p>
+                <div class="col-xl-3 col-md-6 col-6">
+                    <img class="img-middle" src="img/pe-7s-diamond.png" alt="diamond">
+                    <h4 class="card__title">UI/UX DESIGN</h4>
+                    <p class="card__text">Be set fourth land god darkness <br>
+                        make it wherein own</p>
+                </div>
+                <div class="col-xl-3 col-md-6 col-6">
+                    <img class="img-middle" src="img/pe-7s-arc.png" alt="diamond">
+                    <h4 class="card__title">WEB DEVELOPMENT</h4>
+                    <p class="card__text">A she'd them bring void moving <br>
+                        third she'd kind fill</p>
+                </div>
+                <div class="col-xl-3 col-md-6 col-6">
+                    <img class="img-middle" src="img/pe-7s-phone.png" alt="diamond">
+                    <h4 class="card__title">APP / MOBILE</h4>
+                    <p class="card__text">Dominion man second spirit he, <br>
+                        earth they're creeping</p>
+                </div>
+                <div class="col-xl-3 col-md-6 col-6">
+                    <img class="img-middle" src="img/pe-7s-joy.png" alt="diamond">
+                    <h4 class="card__title">GAME DESIGN</h4>
+                    <p class="card__text">Morning his saying moveth it <br>
+                        multiply appear life be</p>
                 </div>
             </div>
-            <div class="row justify-content-center  ">
-                <div class="col-xl-4 request-form__input_padding_bottom" ><input type="text" placeholder="Your Name" class="request-form__text request-form__text_input_padding"></div>
-                <div class="col-xl-4 request-form__input_padding_bottom"><input type="email" placeholder="Your Email" class="request-form__text request-form__text_input_padding"></div>
-
-                <div class="col-xl-8 request-form__input_padding_bottom">
-                    <input type="text" placeholder="Your Title" class="request-form__text request-form__text_input_padding request-form__text_input_padding_title">
+            <div class="row d-flex justify-content-center ">
+                <div class="col-xl-3 col-md-6 col-6">
+                    <img class="img-middle" src="img/pe-7s-plane.png" alt="diamond">
+                    <h4 class="card__title">SEO / MARKETING </h4>
+                    <p class="card__text">Give won't after land fill creeping <br>
+                        meat you, may</p>
                 </div>
-
-                <div class="col-xl-8 request-form__input_padding_bottom">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Your Comment" class="request-form__text_area_padding request-form__text"></textarea>
+                <div class="col-xl-3 col-md-6 col-6">
+                    <img class="img-middle" src="img/pe-7s-star2.png" alt="diamond">
+                    <h4 class="card__title">PHOTOGRAPHY</h4>
+                    <p class="card__text">Creepeth one seas cattle grass <br>
+                        give moving saw give</p>
                 </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-xl-3">
-                    <button class="request-form__button">SEND MESSAGE</button>
+                <div class="col-xl-3 col-md-6 col-6">
+                    <img class="img-middle" src="img/pe-7s-magic-wand.png" alt="diamond">
+                    <h4 class="card__title">GRAPHIC DESIGN</h4>
+                    <p class="card__text">Open, great whales air rule for, <br>
+                        fourth life whales</p>
                 </div>
-            </div>
-        </div>
-    </section>
-    <footer>
-        <div class="container  footer">
-            <div class="row justify-content-md-around ">
-                <div class="col-xl-3 col-md-5">
-                    <span class="footer__span-text footer__text_padding">Piroll Design, Inc.</span>
-                    <p class="pd footer__text_padding"> &copy; 2017 Piroll. All rights reserved. <br>
-                        Design by Kostiantyn</p>
-                </div>
-                <div class="col-xl-3 col-md-3">
-                    <p>hello@pirolltheme.com <br>
-                       +44 987 065 908</p>
-                </div>
-                <div class="col-xl-2 col-md-1">
-                    <p>Projects<br>
-                       About<br>
-                       Services<br>
-                       Carreer
-                    </p>
-                </div>
-                <div class="col-xl-2 col-md-1">
-                    <p>News<br>
-                       Events<br>
-                       Contacts<br>
-                       Legals</p>
-                </div>
-                <div class="col-xl-2 col-md-2">
-                    <p>Facebook<br>
-                       Twitter<br>
-                       Instagram<br>
-                       Dribbble</p>
+                <div class="col-xl-3 col-md-6 col-6">
+                    <img class="img-middle" src="img/pe-7s-paint-bucket.png" alt="diamond">
+                    <h4 class="card__title">ILLUSTRATIONS</h4>
+                    <p class="card__text">Whales likeness hath, man kind <br>
+                        for them air two won't</p>
                 </div>
             </div>
         </div>
-    </footer>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </div>
+</section>
+<section class="authors__background ">
+    <div class="container sliders">
+        <div class="row">
+            <div class="col-xl-12  text-center">
+                <div class="mySlides authors__bg">
+                    <p class="authors__words"><q> Outstanding job and exceeded all expectations. It was a pleasure <br>
+                        to work with them on a sizable first project and am looking <br>
+                        forward to start the next one asap.</q></p>
+                    <p class="authors__name">MICHAEL HOPKINS</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-12  text-center">
+                <div class="mySlides authors__bg">
+                    <p class="authors__words"><q> Outstanding job and exceeded all expectations. It was a pleasure <br>
+                        to work with them on a sizable first project and am looking <br>
+                        forward to start the next one asap.</q></p>
+                    <p class="authors__name">Andrew HOPKINS</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-12  text-center">
+                <div class="mySlides authors__bg">
+                    <p class="authors__words"><q> Outstanding job and exceeded all expectations. It was a pleasure <br>
+                        to work with them on a sizable first project and am looking <br>
+                        forward to start the next one asap.</q></p>
+                    <p class="authors__name">Anzhelika HOPKINS</p>
+                </div>
+            </div>
+        </div>
+<!--        <div class="col-xl-12 authors__bg">
+            <div style="text-align:center">
+                <span class="authors__bt " onclick="currentSlide(1)"></span>
+                <span class="authors__bt" onclick="currentSlide(2)"></span>
+                <span class="authors__bt authors__bt_selected" onclick="currentSlide(3)"></span>
+            </div>
+        </div>-->
+    </div>
+</section>
+<section class="container">
+    <div class="row justify-content-between justify-content-md-around  justify-content-xs-around align-items-center_mobile section-additional__padding">
+        <div class="col-xl-2 col-md-3 col-6 "><img src="img/1.png" alt="handmade"
+                                                   class="section_additional__img img-fluid additional_padding_bt_mobile">
+        </div>
+        <div class="col-xl-2 col-md-3 col-6"><img src="img/2.png" alt="mountain"
+                                                  class="section_additional__img img-fluid additional_padding_bt_mobile">
+        </div>
+        <div class="col-xl-2 col-md-3 col-6"><img src="img/3.png" alt="collection"
+                                                  class="section_additional__img img-fluid"></div>
+        <div class="col-xl-2 col-md-3 col-6"><img src="img/4.png" alt="vintage"
+                                                  class="section_additional__img img-fluid"></div>
+    </div>
+</section>
+
+<section class="request-form__background">
+    <div class="container  section-form-request">
+        <div class="row justify-content-center">
+            <div class="col-xl-6 col-12">
+                <h3 class="section-form-request__text_h3">Need a Project?</h3>
+                <p>Let us know what you're looking for in an agency. We'll take a look and see <br>
+                    if this could be the start of something beautiful.</p>
+            </div>
+        </div>
+        <div class="row justify-content-center  ">
+            <div class="col-xl-4 col-12 request-form__input_padding_bottom"><input type="text" placeholder="Your Name"
+                                                                                   class="request-form__text request-form__text_input_padding">
+            </div>
+            <div class="col-xl-4 col-12 request-form__input_padding_bottom"><input type="email" placeholder="Your Email"
+                                                                                   class="request-form__text request-form__text_input_padding">
+            </div>
+
+            <div class="col-xl-8 col-12 request-form__input_padding_bottom">
+                <input type="text" placeholder="Your Title"
+                       class="request-form__text request-form__text_input_padding request-form__text_input_padding_title">
+            </div>
+
+            <div class="col-xl-8 col-12 request-form__input_padding_bottom">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Comment"
+                          class="request-form__text_area_padding request-form__text"></textarea>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-xl-3">
+                <button class="request-form__button">SEND MESSAGE</button>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="container  footer">
+        <div class="row justify-content-md-around ">
+            <div class="col-xl-3 col-md-5 col-6">
+                <span class="footer__span-text footer__text_padding">Piroll Design, Inc.</span>
+                <p class="pd footer__text_padding"> &copy; 2017 Piroll. All rights reserved. <br>
+                    Design by Kostiantyn</p>
+            </div>
+            <div class="col-xl-3 col-md-3 col-6">
+                <p>hello@pirolltheme.com <br>
+                    +44 987 065 908</p>
+            </div>
+            <div class="col-xl-2 col-md-1 col-4 footer__text_padding_mobile">
+                <p>Projects<br>
+                    About<br>
+                    Services<br>
+                    Carreer
+                </p>
+            </div>
+            <div class="col-xl-2 col-md-1 col-4">
+                <p>News<br>
+                    Events<br>
+                    Contacts<br>
+                    Legals</p>
+            </div>
+            <div class="col-xl-2 col-md-2 col-4">
+                <p>Facebook<br>
+                    Twitter<br>
+                    Instagram<br>
+                    Dribbble</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
 </script>
-    <script type="text/javascript" src="js/scripts.js"> </script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-    </script>
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-    </script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-    </script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+</script>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+</script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+</script>
+<script type="text/javascript" src="js/scripts.js"></script>
 
-
-
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>-->
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 </body>
 </html>

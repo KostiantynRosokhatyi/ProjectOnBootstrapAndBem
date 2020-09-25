@@ -22,7 +22,7 @@ $(document).ready(
         $(".menu li").click(menu__item_a_active_function);
     }
 );
-/*Slider*/
+/*/!*Slider*!/
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -52,7 +52,7 @@ function showSlides(n) {
 
     slides[slideIndex-1].style.display = "block";
     dots[slideIndex-1].className += " authors__bt_selected";
-};
+};*/
 /*Menu*/
 jQuery(document).ready(function($){
     /* Меню */
@@ -95,9 +95,18 @@ jQuery(document).ready(function($){
             $(this).html('<i class="fas fa-bars"></i>');
         }
     });
-
 });
-
+$(document).ready(function(){
+    $('.sliders').slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        adaptiveHeight: true,
+        arrows: false,
+        dotsClass: 'dots-style'
+});
+});
 
 
 
