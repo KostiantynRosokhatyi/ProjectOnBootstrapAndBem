@@ -4,8 +4,11 @@ ul, li, br{
     padding: 0;
     margin: 0;
 }
-.logo {
 
+.logo {
+}
+body,html{
+    overflow-x: hidden;
 }
 .menu-bar {
     color: #191919;
@@ -55,15 +58,17 @@ ul, li, br{
 
 }
 .button{
-    padding: 20px 40px;
     border: none;
     background: #10c9c3;
     transition: 0.3s;
-}
-.header__button{
-    color: #ffffff;
-    font-family: 'Montserrat Medium';
+    font-family: "Montserrat Medium";
     font-size: 12px;
+    color: #ffffff ;
+    padding: 22px 35px ;
+
+}
+.header button{
+    padding: 20px 40px;
 }
 .header__button:hover{
     background: #118986;;
@@ -364,13 +369,8 @@ footer{
 .request-form__input_padding_bottom{
     margin-bottom: 30px;
 }
-.request-form__button{
-    font-family: "Montserrat Medium";
-    font-size: 12px;
-    color: #ffffff ;
+.section-form-request button{
     padding: 22px 35px ;
-    background-color: #10c9c3 ;
-    border: none;
 }
 .footer__text_padding{
     padding-left: 100px;
@@ -386,8 +386,8 @@ footer{
     text-align: center;
     padding: 5px;
     position: fixed;
-    bottom: 10px;
-    right: 10px;
+    bottom: 15px;
+    right: 15px;
     cursor: pointer;
     display: none;
     color: white;
@@ -407,13 +407,15 @@ footer{
     border: none;
     border-radius: 50%;
     font-size: 0;
-    height: 15px;
-    width: 15px;
+    height: 12px;
+    width: 12px;
     margin: 5px;
     outline: none;
 }
 .dots-style li[class="slick-active"] button{
     background: #ffffff;
+    height: 18px;
+    width: 18px;
 }
 
 @media screen and (max-width: 1024px){
@@ -458,7 +460,7 @@ footer{
         display: none;
     }
 }
-@media screen and (max-width: 360px){
+@media screen and (max-width:458px){
     .header__title{
         padding-left: 20px;
         font-size: 34px;
