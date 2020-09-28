@@ -6,6 +6,20 @@ ul, li, br{
 }
 
 .logo {
+    width: 100px;
+    height: 100px;
+    padding: 0;
+    margin: 0;
+
+}
+.logo-bar a {
+    text-decoration: none;
+    color: #10c9c3;
+    font-size: 22px;
+    display: flex;
+    align-items: baseline;
+    padding: 0;
+    margin: 0;
 }
 body,html{
     overflow-x: hidden;
